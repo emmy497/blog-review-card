@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body >
+  
+<div class="min-h-screen flex items-center justify-center bg-[#F4D04E]">
+
+  <div class="relative inline-block">
+    <!-- Black offset shadow layer -->
+    <div class="absolute right-[-8px] bottom-[-8px] w-full h-full bg-black rounded-2xl z-0"></div>
+
+    <!-- Main white card -->
+    <div class="relative bg-white rounded-2xl p-5 z-10 max-w-sm shadow-md border border-gray-200">
+      <!-- Card Image -->
+      <img 
+        src="./assets/images/illustration-article.svg" 
+        alt="Card image"
+        class="w-full rounded-xl mb-5"
+      />
+
+      <!-- Category Label -->
+   <span><p class="bg-[#F4D04E] text-sm  p-[4px]  inline  font-bold rounded  shadow-[0_4px_6px_rgba(0,0,0,0.3)]">Learning</p></span>
+
+      <!-- Date -->
+      <p class="text-gray-700 text-sm mt-3">Published 21 Dec 2023</p>
+
+      <!-- Title -->
+      <h2 class="text-xl font-extrabold mt-2">HTML & CSS foundations</h2>
+
+      <!-- Description -->
+      <p class="text-gray-500 text-sm mt-2">
+        These languages are the backbone of every website, defining structure, content, and presentation.
+      </p>
+
+      <!-- Author -->
+      <div class="flex items-center gap-2 mt-5">
+        <img 
+          src="./assets/images/image-avatar.webp" 
+          alt="Greg Hooper"
+          class="w-8 h-8 rounded-full"
+        />
+        <p class="font-bold text-sm">Greg Hooper</p>
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+
+
+
+</body>
+</html>
